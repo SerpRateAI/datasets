@@ -15,3 +15,4 @@ These should be committed on their own branch and a pull request is made per dat
 
 | **Data set** | **time period** | Sample rate | Number of Samples | **source** |
 |--------------|-----------------|-------------|-------------------|------------|
+| Bubbles      | May 2019 - Feb 2020 | events | 2434 | Bubble detection catalog from BA1B for Aiken et al., 2022 |
