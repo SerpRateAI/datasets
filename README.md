@@ -17,7 +17,7 @@ These should be committed on their own branch and a pull request is made per dat
 |--------------|-----------------|-------------|-------------------|------------|
 | Bubbles      | May 2019 - Feb 2020 | events | 2434 | Bubble detection catalog from BA1B for Aiken et al., 2022 |
 | Daily Precipitation | Jan 2019 - Feb 2020 | daily | 425 | https://code.earthengine.google.com/65cfcd01ee34290615a7c854a00b76f4 |
-| Geology      | N/A | N/A | N/A | 690 | constructed from AI paper, Aiken et al. |
+| Geology      | N/A | N/A | 690 | constructed from AI paper, Aiken et al. |
 
 ## Bubbles
 This is the dataset from Aiken et al., 2022 for the bubbles detected in BA1B.
