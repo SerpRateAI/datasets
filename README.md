@@ -71,5 +71,3 @@ It has the following columns:
 24. GRAINSIZE_Cryptocrystalline	GRAINSIZE_Fine grained	GRAINSIZE_Medium grained	GRAINSIZE_Microcrystalline	GRAINSIZE2_Coarse grained	GRAINSIZE2_Cryptocrystalline	GRAINSIZE2_Fine grained	GRAINSIZE2_Medium grained	GRAINSIZE2_Pegmatitic
 25. Alteration_dummies_50%-90%	Alteration_dummies_>90%
 26. Veins	Serpentine vein	Oxidation	Carbonate veins	Network	Dyke	Black serpentinization	White veins	Open cracks	Dunite	Gabbro	Microgabbro	Green veins	Open crack	Irregular	Waxy green	Alteration	Subvertical	Fine grained	Subhorizontal	Lineation	Magnetite	Thickness	Harzburgite	Altered gabbro	Offset	Altered	Crack	Pxenites	Microbio sample	Bulk serp	Bulk	Coalescence	Waxy	Wavy	Slickensides	Alteration halo	Plagioclase	Fracture	Sheared	Pyroxenite	Striations	Branching	Blue patches	Magmatic intrusions	Hydrothermal	Rodingite	Magmatic veins	Offsets	Shearing	Dark green	Dunitic zone	SiO2	TiO2	Al2O3	Fe2O3t	MnO	MgO	CaO	Na2O	K2O	P2O5	100*Fe(III)/FeT	Vrecal	Crrecal	Co	Nirecal	Curecal	Znrecal	Srrecal	Redness	Greenness	Blueness	Y (luminance)
-27.
-28. ![image](https://github.com/user-attachments/assets/477fe88a-b338-42e7-95fe-67aa39b57dc7)
