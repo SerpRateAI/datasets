@@ -18,6 +18,7 @@ These should be committed on their own branch and a pull request is made per dat
 | Bubbles      | May 2019 - Feb 2020 | events | 2434 | Bubble detection catalog from BA1B for Aiken et al., 2022 |
 | Daily Precipitation | Jan 2019 - Feb 2020 | daily | 425 | https://code.earthengine.google.com/65cfcd01ee34290615a7c854a00b76f4 |
 | Geology      | N/A | N/A | 690 | constructed from AI paper, Aiken et al. |
+| Hourly Precipitation | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | https://code.earthengine.google.com/c49bf94e6e5f37b8fc0bf4827787d3ce
 
 ## Bubbles
 This is the dataset from Aiken et al., 2022 for the bubbles detected in BA1B.
@@ -72,3 +73,13 @@ It has the following columns:
 25. Alteration_dummies_50%-90%	Alteration_dummies_>90% - columns indicating the amount of alteration according to field geologists
 26. Veins	Serpentine vein	Oxidation	Carbonate veins	Network	Dyke	Black serpentinization	White veins	Open cracks	Dunite	Gabbro	Microgabbro	Green veins	Open crack	Irregular	Waxy green	Alteration	Subvertical	Fine grained	Subhorizontal	Lineation	Magnetite	Thickness	Harzburgite	Altered gabbro	Offset	Altered	Crack	Pxenites	Microbio sample	Bulk serp	Bulk	Coalescence	Waxy	Wavy	Slickensides	Alteration halo	Plagioclase	Fracture	Sheared	Pyroxenite	Striations	Branching	Blue patches	Magmatic intrusions	Hydrothermal	Rodingite	Magmatic veins	Offsets	Shearing	Dark green	Dunitic zone	SiO2	TiO2	Al2O3	Fe2O3t	MnO	MgO	CaO	Na2O	K2O	P2O5	100*Fe(III)/FeT	Vrecal	Crrecal	Co	Nirecal	Curecal	Znrecal	Srrecal - columns indicating this keyword was selected by chatgpt for this section
 27. Redness	Greenness	Blueness	Y (luminance) - columns related to the image itself
+
+
+## Hourly Precipitation
+
+This data set was constructed from ERA5-land hourly precipitation data and the hydrobasins catchment shape files.
+
+It has the following columns:
+
+1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
+2. *total_precip* - total precipitation amount during that hour, in meters (m)
