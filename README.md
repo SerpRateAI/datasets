@@ -20,7 +20,16 @@ These should be committed on their own branch and a pull request is made per dat
 | Geology      | N/A | N/A | 690 | constructed from AI paper, Aiken et al. |
 | Hourly Precipitation | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_precip file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and Generate_Hourly_Precip.py in dataset_management folder in this repo
 | Hourly Temperature 2m | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_temperature_2m file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Temp2m.py file in the folder dataset_management in this repo |
-| Hourly Surface Pressure | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | 
+| Hourly Surface Pressure | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_surface_pressure file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Surface_Pressure.py file in the folder dataset_management in this repo |
+| Hourly Soil Temperature (Level 1) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_soil_temp_1 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Soil_Temp_1.py file in the folder dataset_management in this repo |
+| Hourly Soil Temperature (Level 2) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_soil_temp_2 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Soil_Temp_2.py file in the folder dataset_management in this repo |
+| Hourly Soil Temperature (Level 3) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_soil_temp_3 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Soil_Temp_3.py file in the folder dataset_management in this repo |
+| Hourly Soil Temperature (Level 4) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_soil_temp_4 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Soil_Temp_4.py file in the folder dataset_management in this repo |
+| Hourly Volumetric Soil Water (Layer 1) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_1 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer1.py file in the folder dataset_management in this repo |
+| Hourly Volumetric Soil Water (Layer 2) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_2 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer2.py file in the folder dataset_management in this repo |
+| Hourly Volumetric Soil Water (Layer 3) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_3 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer3.py file in the folder dataset_management in this repo |
+| Hourly Volumetric Soil Water (Layer 4) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_4 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer4.py file in the folder dataset_management in this repo |
+
 
 ## Bubbles
 This is the dataset from Aiken et al., 2022 for the bubbles detected in BA1B.
@@ -89,9 +98,39 @@ It has the following columns:
 
 ## Hourly Temperature 2m
 
-This data set was constructed from ERA5-land hourly temperature data and the $
+This data set was constructed from ERA5-land hourly temperature data and the hydrobasins catchment shape files.
 
 It has the following columns:
 
 1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
 2. *temperature_2m* - temperature 2m above the surface during that hour, in degrees Kelvin (K).
+
+
+## Hourly Surface Pressure
+
+This data set was constructed from ERA5-land hourly surface pressure data and the hydrobasins catchment shape files.
+
+It has the following columns:
+
+1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
+2. *surface_pressure* - pressure of the atmosphere on the surface of the land/sea/in-land water during that hour, in Pascals (Pa).
+
+
+## Hourly Soil Temperature (Levels 1, 2, 3, 4)
+
+These data sets were constructed from ERA5-land hourly soil temperature data and the hydrobasins catchment shape files.
+
+Each one has the following columns:
+
+1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
+2. *soil_temperature_level_#* - temperature of the soil in level # of the ECMWF Integrated Forecasting System during that hour, in degrees Kelvin (K)
+
+
+## Hourly Volumetric Soil Water (Layers 1, 2, 3, 4)
+
+These data sets were constructed from ERA5-land hourly volumetric soil water data and the hydrobasins catchment shape files.
+
+Each one has the following columns:
+
+1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
+2. *volumetric_soil_water_layer_#* - volume fraction of water in the soil in layer # of the ECMWF Integrated Forecasting System during that hour 
