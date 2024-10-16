@@ -19,6 +19,8 @@ These should be committed on their own branch and a pull request is made per dat
 | Daily Precipitation | Jan 2019 - Feb 2020 | daily | 425 | https://code.earthengine.google.com/65cfcd01ee34290615a7c854a00b76f4 |
 | Geology      | N/A | N/A | 690 | constructed from AI paper, Aiken et al. |
 | Hourly Precipitation | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | https://code.earthengine.google.com/c49bf94e6e5f37b8fc0bf4827787d3ce
+| Hourly Temperature 2m | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | https://code.earthengine.google.com/358c9bb7863f0f7eec6424ba38b734aa |
+
 
 ## Bubbles
 This is the dataset from Aiken et al., 2022 for the bubbles detected in BA1B.
@@ -83,3 +85,13 @@ It has the following columns:
 
 1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
 2. *total_precip* - total precipitation amount during that hour, in meters (m)
+
+
+## Hourly Temperature 2m
+
+This data set was constructed from ERA5-land hourly temperature data and the $
+
+It has the following columns:
+
+1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
+2. *temperature_2m* - temperature 2m above the surface during that hour, in degrees Kelvin (K).
