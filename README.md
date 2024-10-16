@@ -18,9 +18,9 @@ These should be committed on their own branch and a pull request is made per dat
 | Bubbles      | May 2019 - Feb 2020 | events | 2434 | Bubble detection catalog from BA1B for Aiken et al., 2022 |
 | Daily Precipitation | Jan 2019 - Feb 2020 | daily | 425 | https://code.earthengine.google.com/65cfcd01ee34290615a7c854a00b76f4 |
 | Geology      | N/A | N/A | 690 | constructed from AI paper, Aiken et al. |
-| Hourly Precipitation | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | https://code.earthengine.google.com/c49bf94e6e5f37b8fc0bf4827787d3ce
-| Hourly Temperature 2m | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | https://code.earthengine.google.com/358c9bb7863f0f7eec6424ba38b734aa |
-
+| Hourly Precipitation | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_precip file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and Generate_Hourly_Precip.py in dataset_management folder in this repo
+| Hourly Temperature 2m | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_temperature_2m file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Temp2m.py file in the folder dataset_management in this repo |
+| Hourly Surface Pressure | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | 
 
 ## Bubbles
 This is the dataset from Aiken et al., 2022 for the bubbles detected in BA1B.
