@@ -49,7 +49,7 @@ This data set was constructed from ERA5-land daily precipitation data and the hy
 
 It has the following columns:
 
-1. *system:time_start* - date for precipitation
+1. *datetime* - date for precipitation
 2. *total_precipitation_sum* - the total accumulated precipitation for the day
 
 ## Geology
