@@ -29,7 +29,7 @@ These should be committed on their own branch and a pull request is made per dat
 | Hourly Volumetric Soil Water (Layer 2) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_2 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer2.py file in the folder dataset_management in this repo |
 | Hourly Volumetric Soil Water (Layer 3) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_3 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer3.py file in the folder dataset_management in this repo |
 | Hourly Volumetric Soil Water (Layer 4) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_4 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer4.py file in the folder dataset_management in this repo |
-
+| BA1D Pressure and Temperature | 1/18/19 11:15 - 2/29/20 17:21 | every 15 minutes | 39027 | logged from BA1D directly |
 
 ## Bubbles
 This is the dataset from Aiken et al., 2022 for the bubbles detected in BA1B.
@@ -134,3 +134,14 @@ Each one has the following columns:
 
 1. *datetime* - timestamp in the format YYYY-MM-DD HH:mm:ss.
 2. *volumetric_soil_water_layer_#* - volume fraction of water in the soil in layer # of the ECMWF Integrated Forecasting System during that hour 
+
+## BA1D Pressure and Temperature
+
+This data set was logged from BA1D directly.
+
+It has the following columns:
+
+1. *datetime* - timestamp UTC 
+2. *elapsed_sec* - the time in elapsed seconds from the start time
+3. *pressure_bar* - the pressure in bars in the borehole fluid pressure
+4. *temperature_c* - the temperature in celsius in the borehole fluid 
