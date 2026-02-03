@@ -31,6 +31,7 @@ These should be committed on their own branch and a pull request is made per dat
 | Hourly Volumetric Soil Water (Layer 4) | Jan 01 2017 - Dec 31 2020 | hourly | 35064 | The hourly_volu_soil_water_4 file in https://code.earthengine.google.com/?accept_repo=users/cassandralem/tigertail-data and the Generate_Hourly_Volu_Soil_Water_Layer4.py file in the folder dataset_management in this repo |
 | BA1D Pressure and Temperature | 1/18/19 11:15 - 2/29/20 17:21 | every 15 minutes | 39027 | logged from BA1D directly |
 | Oman tidal data set | 2018-04-08 00:00:00 - 2020-09-04 00:45:00+00:00 | every 15 minutes | 844884 | from sohn and matter 2023 |
+| Downward migrating fractures | 2019-05-01 - 2020-02-28 | every second |every second|  26262500 | from aiken et al 2026 |
 ## Bubbles
 This is the dataset from Aiken et al., 2022 for the bubbles detected in BA1B.
 
@@ -152,3 +153,10 @@ This data was calculated from water level changes in BA1D and come from Sohn and
 
 1. *datetime* - timestamp UTC
 2. *tide_nstr* - areal strain (unitless)
+
+## Fractures
+
+This data was created from the acoustic detection of downward migrating fractures from Aiken et al., 2026
+
+1. *depth* - the depth in meters that the event occurs at from the top of the borehole (meters)
+2. *datetime* - timestamp UTC
